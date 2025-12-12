@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { CalendlyPopup } from '@/components/CalendlyPopup';
 import { Button } from '@/components/ui/Button';
 import { CALENDLY_URL } from '@/lib/constants';
@@ -9,8 +10,15 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-black/5">
       <div className="max-w-section mx-auto px-6 md:px-8 lg:px-12">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <a href="/" className="text-xl md:text-2xl font-bold text-primary">
-            ClearMotion
+          <a href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Clear Motion"
+              width={180}
+              height={40}
+              className="h-8 md:h-10 w-auto"
+              priority
+            />
           </a>
 
           <CalendlyPopup url={CALENDLY_URL}>
