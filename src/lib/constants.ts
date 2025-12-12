@@ -1,4 +1,4 @@
-export const CALENDLY_URL = 'https://calendly.com/YOUR_CALENDLY_LINK';
+export const CALENDLY_URL = 'https://calendly.com/zane-hyperspecific/clear-motion-demo';
 
 export const SITE_CONFIG = {
   title: 'ClearMotion | Done-for-You Auto Shop Revenue Recovery',
