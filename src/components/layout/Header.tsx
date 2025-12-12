@@ -9,14 +9,14 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-black/5">
       <div className="max-w-section mx-auto px-6 md:px-8 lg:px-12">
-        <div className="flex items-center justify-between h-20 md:h-24">
+        <div className="flex items-center justify-between h-28 md:h-32">
           <a href="/" className="flex items-center">
             <Image
               src="/logo.png"
               alt="Clear Motion"
-              width={280}
-              height={60}
-              className="h-12 md:h-14 w-auto"
+              width={500}
+              height={120}
+              className="h-20 md:h-24 w-auto"
               priority
             />
           </a>
